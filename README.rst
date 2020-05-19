@@ -1,0 +1,32 @@
+
+The OMDb API is a RESTful web service to obtain movie information, all content and images on the site are contributed and maintained by our users.
+
+
+=======
+Install
+=======
+
+.. code-block:: bash
+
+    pip install omd
+
+=======
+Example
+=======
+
+.. code-block:: python
+
+    from omd.client import OMDAPI
+
+    API_KEY = 'api key'
+    title = 'mask'
+    client = OMDAPI(API_KEY)
+    movies = client.search_title(title)
+
+
+=======
+Donation
+=======
+
+.. image:: https://img.shields.io/badge/Donate-PayPal-green.svg
+  :target: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YYZQ6ZRZ3EW5C
