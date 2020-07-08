@@ -1,7 +1,7 @@
 import requests, json
 
 
-class OMDAPI(object):
+class OMDb(object):
 
     def __init__(self, key, type='movie', plot='full', r='json'):
         self.key = key

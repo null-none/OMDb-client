@@ -16,12 +16,12 @@ Example
 
 .. code-block:: python
 
-    from omdb.client import OMDAPI
+    from omdb.client import OMDb
 
     API_KEY = 'api key'
     title = 'mask'
     id = 100000
-    client = OMDAPI(API_KEY)
+    client = OMDb(API_KEY)
     movies = client.search_title(title)
     movie = client.search_id(id)
 
