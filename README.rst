@@ -8,7 +8,7 @@ Install
 
 .. code-block:: bash
 
-    pip install omd
+    pip install omdb_client
 
 =======
 Example
@@ -16,7 +16,7 @@ Example
 
 .. code-block:: python
 
-    from omd.client import OMDAPI
+    from omdb.client import OMDAPI
 
     API_KEY = 'api key'
     title = 'mask'
